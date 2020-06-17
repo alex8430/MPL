@@ -7,8 +7,22 @@
     font-family: "Montserrat", sans-serif;
   }
   body {
-    background: #eee;
+    background-color: #fff;
   }
+
+  header{
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+
+  }
+input[type="number" i] {
+  padding: 1px 2px;
+  width: 276px;
+  border: solid 1px #828282;
+  background-color: transparent;
+  border-radius: 0 4px 4px 0;
+}
+
 
 
   footer{
@@ -19,4 +33,43 @@
       padding-bottom: 2rem;
 
   }
- 
+
+  .sms-form{
+    margin-top: 56px;
+  }
+  .input-mob{
+    height:50px;
+    width:43px;
+    line-height: 50px;
+    color: #222;
+    font-size:20px;
+    box-sizing: border-box;
+    border: solid 1px #828282;
+    border-radius: 4px 0 0 4px;
+  }
+.input-text{
+  font-family: Roboto,sans-serif;
+  font-size: 14px;
+  line-height: 1.65em;
+  text-align: left;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+  line-height: 18px;
+}
+.download-but{
+  width: 288px;
+  margin-left: 15px;
+  border-radius: 4px;
+  background: #19be00;
+  font-family: Roboto;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 28px;
+  letter-spacing: 0.01px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
