@@ -3,10 +3,7 @@ import Input from "./Input"
 
 function Front(){
     return (
-    <div className = "banner-layout">
-        <div>
-            
-        </div>
+    <div >
         <Input />
     </div>
     );
