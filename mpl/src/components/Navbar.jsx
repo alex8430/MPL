@@ -1,35 +1,33 @@
 import React from "react";
 
 function Navbar(){
-    return (<header>
-        <div className="collapse bg-dark">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-8 col-md-7 py-4">
-                <h4 className="text-white">About</h4>
-              </div>
-              <div className="col-sm-4 offset-md-1 py-4">
-                <h4 className="text-white">Contact</h4>
-                <ul className="list-unstyled">
-                  <li><a href="#" className="text-white">Follow on Twitter</a></li>
-                  <li><a href="#" className="text-white">Like on Facebook</a></li>
-                  <li><a href="#" className="text-white">Email me</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="navbar navbar-light ">
-          <div className="container d-flex justify-content-between">
-            <a href="#" className="navbar-brand d-flex align-items-center">
-             <strong>MPL</strong>
-            </a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
-      </header>);
+    return (
+<header className="header-section">
+  <div className = "logo-menu">
+      <a href="/" className = "header-logo mpl-logo"><img src="https://www.mpl.live/static/MPL_Logo.png" alt="MPL Logo" class="mpl-logo"></img></a>
+    <div className = "logo-menu menu-icon">
+    <a href="#app-download"> </a>
+      <div className="bar1"></div>
+        <div className="bar2"></div>
+          <div className="bar2"></div> 
+      <div className = "logo-menu hide">
+        <nav>
+          <div><a href ="#fantasy">Play Fantasy</a><div id="shade" class="header-logo mobile"></div></div>
+          <div class="header-logo"><a href="/bubble-shooter" class="header-logo">Bubble Shooter</a></div>
+          <div class="header-logo"><a href="/fantasy-cricket" class="header-logo">Fantasy Cricket</a></div>
+          <div class="header-logo"><a href="/fantasy-football/" class="header-logo">Fantasy Football</a></div>
+          <div class="header-logo"><a href="/fantasy-football/" class="header-logo">Rumy</a></div>
+          <div class="header-logo"><a href="/fantasy-football/" class="header-logo">Ludo</a></div>
+          <div class="header-logo"><a href="/fantasy-football/" class="header-logo">Fruit Slice</a></div>
+          <div class="header-logo"><a href="/fantasy-football/" class="header-logo">Fruit Chop</a></div>
+          <div class="header-logo"><a href="/fantasy-football/" class="header-logo">More Games</a></div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+    );
 }
 
 export default Navbar;
+

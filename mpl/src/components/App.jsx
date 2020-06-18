@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Front from "./Front";
 
 function App(){
-    return (<div><Header /> <Front /><Footer /></div>);
+    return (<div><Header /> <Front /> </div>);
 }
 
 export default App;

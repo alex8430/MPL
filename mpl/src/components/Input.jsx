@@ -2,6 +2,7 @@ import React from "react";
 
 function Input(){
     return (
+        <div>
         <form>
         <div className = "sms-form input-text">
             <div className="input-text">
@@ -14,6 +15,7 @@ function Input(){
 
         </div>
         </form>
+        </div>
     );
 }
 
