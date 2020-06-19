@@ -1,5 +1,5 @@
 import React from "react";
-import Front from "./Front";
+import Input from "./Input";
 function Layout(){
     return (
         <section className="banner-large">
@@ -14,7 +14,7 @@ function Layout(){
                     <h2 style={{color: "black"}} >Play Games &amp; Win Cash!</h2>
                     <h3>Play Free Fire, Fantasy Sports &amp; more to Win Prizes  Daily</h3>
                     </div>
-                    <Front />
+                    <Input />
                 </div>
             </div>
         

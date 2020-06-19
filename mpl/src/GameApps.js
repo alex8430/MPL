@@ -1,0 +1,89 @@
+const games = [
+    {
+        key:1,
+        url:"#bubble-shooter",
+        name:"Bubble Shooter"
+    },
+    {
+        key:2,
+        url:"#bubble-shooter",
+        name:"Cricket"
+    },
+    {
+        key:3,
+        url:"#bubble-shooter",
+        name:"Chess"
+    },
+    {
+        key:4,
+        url:"#bubble-shooter",
+        name:"Rumy"
+    },
+    {
+        key:5,
+        url:"#bubble-shooter",
+        name:"Food Slice"
+    },
+    {
+        key:6,
+        url:"#bubble-shooter",
+        name:"FootBall"
+    },
+    {
+        key:7,
+        url:"#bubble-shooter",
+        name:"Ladder"
+    },
+    {
+        key:8,
+        url:"#bubble-shooter",
+        name:"Ludo"
+    },
+    {
+        key:9,
+        url:"#bubble-shooter",
+        name:"Teen Pati"
+    },
+    {
+        key:10,
+        url:"#bubble-shooter",
+        name:"FootBall"
+    },
+    {
+        key:11,
+        url:"#bubble-shooter",
+        name:"Ladder"
+    },
+    {
+        key:12,
+        url:"#bubble-shooter",
+        name:"Ludo"
+    },
+    {
+        key:13,
+        url:"#bubble-shooter",
+        name:"Teen Pati"
+    },
+    {
+        key:14,
+        url:"#bubble-shooter",
+        name:"FootBall"
+    },
+    {
+        key:15,
+        url:"#bubble-shooter",
+        name:"Ladder"
+    },
+    {
+        key:16,
+        url:"#bubble-shooter",
+        name:"Ludo"
+    },
+    {
+        key:17,
+        url:"#bubble-shooter",
+        name:"Teen Pati"
+    }
+]
+
+export default games;

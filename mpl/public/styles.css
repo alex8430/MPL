@@ -90,7 +90,7 @@ input[type="number" i] {
   footer{
       text-align:center;
       margin-top: 2rem;
-      background-color: #6c757d;
+      background-color: #646668;
       padding-top: 2rem;
       padding-bottom: 2rem;
 
@@ -103,12 +103,14 @@ input[type="number" i] {
     padding-bottom: 0;
     height: 52px;
     z-index: 1;
+   
   }
   .logo-menu{
     align-items: center;
 
     margin-left: 150px;
     widows: 25px;
+    
   }
   
   .mpl-logo{
@@ -125,6 +127,16 @@ input[type="number" i] {
     margin: 5px 0;
     transition: .4s;
   }
+  .change-bar3 {
+    -webkit-transform: rotate(45deg) translate(-9px,-6px);
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+.change-bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px,6px);
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+
+
   .menu-icon{
     display: inline-block;
     cursor: pointer;
@@ -192,17 +204,10 @@ section .banner-large div.banner-layout {
   line-height: 40px;
   height: 88px;
 }
-
-
 .image-button-wrapper{
   width: 52%;
   z-index: 2;
 }
-
-  .hide{
-    visibility: hidden;
-  }
-
   .sms-form{
     margin-top: 56px;
   }
@@ -241,4 +246,66 @@ section .banner-large div.banner-layout {
   text-align: center;
   color: #ffffff;
   border: none;
+}
+
+/* ------------------------------------------ */
+
+.game-section{
+  background-color: #222;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  top: 0;
+  left: 0;
+  margin-top: 56px;
+  padding: 16px 0 0;
+  margin-right: 16px;
+  flex-direction: column;
+  overflow-y: auto;
+
+}
+.apps a {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #b4b4b4;
+  text-align: right;
+  margin-right: -16;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar{
+  width: 4px;
+  margin-left: 50px;
+  background:#222 ;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a;
+  border-radius: 4px;
+}
+
+.game-app{
+  width: 1300px;
+  height: 85vh;
+  padding-right: 180px;
+  position: absolute;
+  top: 95px;
+  left: 150px;
+  right: 0;
+  overflow-y: auto; 
+}
+.apps{
+  position: absolute;
+  right: 120px;
+  top:0;
+  text-align: right;
+}
+
+.hide{
+  visibility:visible;
 }
